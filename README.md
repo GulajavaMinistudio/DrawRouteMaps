@@ -1,12 +1,10 @@
 # DrawRouteMaps
-Library for draw route maps between two point LatLang
+If you want to add route maps feature in your apps you can use DrawRouteMaps to make you work more easier. This is lib will help you to draw route maps between two point LatLng.
 
 ![alt tag](https://github.com/ar-android/DrawRouteMaps/raw/master/example-app.png)
 
-This is an Android project allowing to realize a PercentView instead of LinearLayout in the simplest way possible.
-
-#Usage
-Make sure your app have ready enable Google Map API and Google Direction API. Then you can use this library and follow this task to ad DrawRouteMaps into your project.
+# Usage
+Make sure your app have allready enable Google Map API and Google Direction API. Then you can use this library and follow this task to integrate DrawRouteMaps into your project.
 
 Add support jitpact repository in root build.gradle at the end of repositories:
 ```gradle
@@ -49,7 +47,18 @@ If you want to change color of line route just add this in your resource
     <color name="colorRouteLine">#FF4081</color>
 ```
 
-LICENCE
------
+# License
 
-DrawRouteMaps by [Ahmad Rosid](http://ahmadrosid.com/) is licensed under a [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0).
+    Copyright 2017 Ahmad Rosid
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
